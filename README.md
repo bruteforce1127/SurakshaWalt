@@ -133,17 +133,6 @@ Response normally contains a JWT token; use that in `Authorization: Bearer <toke
 ## 🔐 Notes on Security & Secrets
 - **DO NOT** publish `application.properties` with real credentials or API keys.. Please **rotate** any exposed credentials immediately and move secrets to environment variables or a secrets manager.
 - Example: `jwt.secret`, database password, API keys should be set via environment variables and not hard-coded.
-
----
-
-## 🧪 Tests & Utilities
-- No automated test suite found in `src/test` (not included). Adding unit/integration tests (Spring Boot Test with @WebMvcTest / @SpringBootTest) is recommended.
-
----
-
-## 📸 Assets & Screenshots
-- If you have UI clients or screenshots, add a `/docs` or `/assets` folder and reference them here to make the README more visual.
-
 ---
 
 ## 🤝 Contributing
@@ -156,10 +145,8 @@ Please follow standard Java code style & include Javadoc for major services/cont
 
 ---
 
-## 📜 License & Contact
-- License: **Add a LICENSE file** (MIT / Apache-2.0 recommended) if you want to open-source this repository.  
-- Contact / Maintainer: _Project originally named/created for Canara Bank — update with repository owner info._
-
+## 📜 License & Contact 
+- Contact : adarshiiitkota@gmail.com
 ---
 
 
